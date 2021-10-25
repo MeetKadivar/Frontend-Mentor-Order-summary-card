@@ -1,0 +1,123 @@
+body{
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
+    background-color:#e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.grid-box{
+    margin-top: 10%;
+    width: 23.5%;
+    margin-left: 40%;
+    border: 1px solid transparent;
+    border-radius:18px ;
+    -webkit-border-radius:18px ;
+    -moz-border-radius:18px ;
+    -ms-border-radius:18px ;
+    -o-border-radius:18px ;
+    background-color:#fff;
+}
+
+.grid-box img{
+    border-top-left-radius:18px ;
+    border-top-right-radius: 18px;
+}
+
+.text-info{
+    padding: 2rem;
+    margin-top: 1.5rem;
+    color: black !important;
+}
+
+.text-heading{
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+}
+
+.text-para{
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 0.5px;
+}
+
+.annual-plan-info{
+    background-color:#f5f7ff;
+    padding: 15px 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.col-6.text-right {
+    text-align: right;
+}
+
+.plan-text{
+    color: black;
+    font-weight: 600;
+}
+
+.plan-amount{
+    letter-spacing: 1px;
+}
+
+.change-btn{
+    color: #3829e0;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.btn-container{
+    margin-top: 2rem;
+}
+
+.payment-btn{
+    background: #3829e0;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.payment-btn button{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.payment-btn button:hover{
+    color: #fff;
+}
+
+.payment-btn:hover{
+    background-color:rgba(56, 41, 224,0.8);
+}
+
+.cancle-btn button{
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+}
+
+.change-btn:hover{
+    color:rgba(56, 41, 224,0.8) !important;
+    text-decoration: none !important;
+}
+
+.cancle-btn button:hover{
+    color: black;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-box {
+      width: 100%;
+      margin-left: 0px;
+    }
+}
